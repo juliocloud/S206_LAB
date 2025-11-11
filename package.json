@@ -1,5 +1,18 @@
 {
-  "dependencies": {
-    "cypress": "^15.5.0"
+  "name": "s206-lab-cypress",
+  "version": "1.0.0",
+  "description": "Exercícios da disciplina de S206 com Cypress.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "cypress:run": "npx cypress run"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "cypress": "^13.13.1",
+    "cypress-mochawesome-reporter": "^3.8.2",
+    "mochawesome": "^7.1.3"
   }
 }
